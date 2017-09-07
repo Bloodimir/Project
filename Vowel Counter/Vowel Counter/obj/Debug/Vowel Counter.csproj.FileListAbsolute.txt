@@ -1,0 +1,5 @@
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Vowel Counter\Vowel Counter\bin\Debug\Vowel Counter.exe.config
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Vowel Counter\Vowel Counter\bin\Debug\Vowel Counter.exe
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Vowel Counter\Vowel Counter\bin\Debug\Vowel Counter.pdb
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Vowel Counter\Vowel Counter\obj\Debug\Vowel Counter.exe
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Vowel Counter\Vowel Counter\obj\Debug\Vowel Counter.pdb

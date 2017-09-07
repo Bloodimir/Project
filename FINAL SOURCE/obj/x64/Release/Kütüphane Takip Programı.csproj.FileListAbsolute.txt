@@ -1,0 +1,10 @@
+C:\Users\Asus\Desktop\IN PIROKRIES\bin\x64\Release\Kütüphane Takip Programı.exe
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x64\Release\Kütüphane_Takip_Programı.ana.resources
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x64\Release\Kütüphane_Takip_Programı.Form1.resources
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x64\Release\Kütüphane_Takip_Programı.Kitapekle.resources
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x64\Release\Kütüphane_Takip_Programı.kitapteslimal.resources
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x64\Release\Kütüphane_Takip_Programı.kitapver.resources
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x64\Release\Kütüphane_Takip_Programı.okuyucuekle.resources
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x64\Release\Kütüphane_Takip_Programı.Properties.Resources.resources
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x64\Release\Kütüphane Takip Programı.csproj.GenerateResource.Cache
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x64\Release\Kütüphane Takip Programı.exe

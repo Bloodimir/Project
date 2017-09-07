@@ -1,0 +1,6 @@
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Reverse The String\Reverse The String\bin\Debug\Reverse The String.exe.config
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Reverse The String\Reverse The String\obj\Debug\Reverse The String.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Reverse The String\Reverse The String\bin\Debug\Reverse The String.exe
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Reverse The String\Reverse The String\bin\Debug\Reverse The String.pdb
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Reverse The String\Reverse The String\obj\Debug\Reverse The String.exe
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Reverse The String\Reverse The String\obj\Debug\Reverse The String.pdb

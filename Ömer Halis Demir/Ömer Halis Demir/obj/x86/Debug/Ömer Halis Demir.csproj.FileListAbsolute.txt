@@ -1,0 +1,6 @@
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Ömer Halis Demir\Ömer Halis Demir\bin\x86\Debug\Ömer Halis Demir.exe.config
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Ömer Halis Demir\Ömer Halis Demir\bin\x86\Debug\Ömer Halis Demir.exe
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Ömer Halis Demir\Ömer Halis Demir\bin\x86\Debug\Ömer Halis Demir.pdb
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Ömer Halis Demir\Ömer Halis Demir\obj\x86\Debug\Ömer Halis Demir.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Ömer Halis Demir\Ömer Halis Demir\obj\x86\Debug\Ömer Halis Demir.exe
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Ömer Halis Demir\Ömer Halis Demir\obj\x86\Debug\Ömer Halis Demir.pdb

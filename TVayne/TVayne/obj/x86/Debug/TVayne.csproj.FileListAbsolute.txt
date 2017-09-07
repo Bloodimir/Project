@@ -1,0 +1,11 @@
+C:\Users\Asus\Desktop\TVayne\TVayne\bin\x86\Debug\TVayne.exe.config
+C:\Users\Asus\Desktop\TVayne\TVayne\bin\x86\Debug\TVayne.exe
+C:\Users\Asus\Desktop\TVayne\TVayne\bin\x86\Debug\TVayne.pdb
+C:\Users\Asus\Desktop\TVayne\TVayne\bin\x86\Debug\EloBuddy.dll
+C:\Users\Asus\Desktop\TVayne\TVayne\bin\x86\Debug\EloBuddy.SDK.dll
+C:\Users\Asus\Desktop\TVayne\TVayne\bin\x86\Debug\SharpDX.Direct3D9.dll
+C:\Users\Asus\Desktop\TVayne\TVayne\bin\x86\Debug\SharpDX.dll
+C:\Users\Asus\Desktop\TVayne\TVayne\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Asus\Desktop\TVayne\TVayne\obj\x86\Debug\TVayne.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Desktop\TVayne\TVayne\obj\x86\Debug\TVayne.exe
+C:\Users\Asus\Desktop\TVayne\TVayne\obj\x86\Debug\TVayne.pdb

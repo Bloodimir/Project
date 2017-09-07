@@ -1,0 +1,6 @@
+c:\users\asus\documents\visual studio 2013\Projects\Faktoriyel\Faktoriyel\bin\Debug\Faktoriyel.exe.config
+c:\users\asus\documents\visual studio 2013\Projects\Faktoriyel\Faktoriyel\bin\Debug\Faktoriyel.exe
+c:\users\asus\documents\visual studio 2013\Projects\Faktoriyel\Faktoriyel\bin\Debug\Faktoriyel.pdb
+c:\users\asus\documents\visual studio 2013\Projects\Faktoriyel\Faktoriyel\obj\Debug\Faktoriyel.csprojResolveAssemblyReference.cache
+c:\users\asus\documents\visual studio 2013\Projects\Faktoriyel\Faktoriyel\obj\Debug\Faktoriyel.exe
+c:\users\asus\documents\visual studio 2013\Projects\Faktoriyel\Faktoriyel\obj\Debug\Faktoriyel.pdb

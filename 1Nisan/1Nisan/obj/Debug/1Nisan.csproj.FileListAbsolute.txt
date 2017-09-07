@@ -1,0 +1,15 @@
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\bin\Debug\1Nisan.exe.config
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\bin\Debug\1Nisan.exe
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\bin\Debug\1Nisan.pdb
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\bin\Debug\Interop.WMPLib.dll
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\bin\Debug\AxInterop.WMPLib.dll
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\obj\Debug\1Nisan.csprojResolveAssemblyReference.cache
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\obj\Debug\Interop.WMPLib.dll
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\obj\Debug\AxInterop.WMPLib.dll
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\obj\Debug\1Nisan.csproj.ResolveComReference.cache
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\obj\Debug\_1Nisan.Form1.resources
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\obj\Debug\_1Nisan.Properties.Resources.resources
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\obj\Debug\1Nisan.csproj.GenerateResource.Cache
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\obj\Debug\1Nisan.exe
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\obj\Debug\1Nisan.pdb
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\bin\Debug\Microsoft.Win32.TaskScheduler.dll

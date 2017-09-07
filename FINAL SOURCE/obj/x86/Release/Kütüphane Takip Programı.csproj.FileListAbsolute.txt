@@ -1,0 +1,102 @@
+C:\Users\Asus\Desktop\IN PIROKRIES\bin\Release\Kütüphane Takip Programı.exe
+C:\Users\Asus\Desktop\IN PIROKRIES\bin\Release\Kütüphane Takip Programı.pdb
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.Form1.resources
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.Kitapekle.resources
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.kitapteslimal.resources
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.kitapver.resources
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.okuyucuekle.resources
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.Properties.Resources.resources
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x86\Release\Kütüphane Takip Programı.csproj.GenerateResource.Cache
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x86\Release\Kütüphane Takip Programı.exe
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x86\Release\Kütüphane Takip Programı.pdb
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x86\Release\Kütüphane Takip Programı.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.ana.resources
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.yardım.resources
+G:\ \IN PIROKRIES\obj\x86\Release\Kütüphane Takip Programı.exe
+G:\ \IN PIROKRIES\obj\x86\Release\Kütüphane Takip Programı.pdb
+G:\ \IN PIROKRIES\bin\Release\Kütüphane Takip Programı.exe
+G:\ \IN PIROKRIES\bin\Release\Kütüphane Takip Programı.pdb
+G:\ \IN PIROKRIES\obj\x86\Release\Kütüphane Takip Programı.csprojResolveAssemblyReference.cache
+G:\ \IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.yardım.resources
+G:\ \IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.ana.resources
+G:\ \IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.Form1.resources
+G:\ \IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.Kitapekle.resources
+G:\ \IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.kitapteslimal.resources
+G:\ \IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.kitapver.resources
+G:\ \IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.okuyucuekle.resources
+G:\ \IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.Properties.Resources.resources
+G:\ \IN PIROKRIES\obj\x86\Release\Kütüphane Takip Programı.csproj.GenerateResource.Cache
+C:\Users\Pc_2\Desktop\IN PIROKRIES\obj\x86\Release\Kütüphane Takip Programı.exe
+C:\Users\Pc_2\Desktop\IN PIROKRIES\obj\x86\Release\Kütüphane Takip Programı.pdb
+C:\Users\Pc_2\Desktop\IN PIROKRIES\bin\Release\Kütüphane Takip Programı.exe
+C:\Users\Pc_2\Desktop\IN PIROKRIES\bin\Release\Kütüphane Takip Programı.pdb
+C:\Users\Pc_2\Desktop\IN PIROKRIES\obj\x86\Release\Kütüphane Takip Programı.csprojResolveAssemblyReference.cache
+C:\Users\Pc_2\Desktop\IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.yardım.resources
+C:\Users\Pc_2\Desktop\IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.ana.resources
+C:\Users\Pc_2\Desktop\IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.Form1.resources
+C:\Users\Pc_2\Desktop\IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.Kitapekle.resources
+C:\Users\Pc_2\Desktop\IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.kitapteslimal.resources
+C:\Users\Pc_2\Desktop\IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.kitapver.resources
+C:\Users\Pc_2\Desktop\IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.okuyucuekle.resources
+C:\Users\Pc_2\Desktop\IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.Properties.Resources.resources
+C:\Users\Pc_2\Desktop\IN PIROKRIES\obj\x86\Release\Kütüphane Takip Programı.csproj.GenerateResource.Cache
+C:\Users\Pc_2\Desktop\MISC\IN PIROKRIES\obj\x86\Release\Kütüphane Takip Programı.exe
+C:\Users\Pc_2\Desktop\MISC\IN PIROKRIES\obj\x86\Release\Kütüphane Takip Programı.pdb
+C:\Users\Pc_2\Desktop\MISC\IN PIROKRIES\bin\Release\Kütüphane Takip Programı.exe
+C:\Users\Pc_2\Desktop\MISC\IN PIROKRIES\bin\Release\Kütüphane Takip Programı.pdb
+C:\Users\Pc_2\Desktop\MISC\IN PIROKRIES\obj\x86\Release\Kütüphane Takip Programı.csprojResolveAssemblyReference.cache
+C:\Users\Pc_2\Desktop\MISC\IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.yardım.resources
+C:\Users\Pc_2\Desktop\MISC\IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.ana.resources
+C:\Users\Pc_2\Desktop\MISC\IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.Form1.resources
+C:\Users\Pc_2\Desktop\MISC\IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.Kitapekle.resources
+C:\Users\Pc_2\Desktop\MISC\IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.kitapteslimal.resources
+C:\Users\Pc_2\Desktop\MISC\IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.kitapver.resources
+C:\Users\Pc_2\Desktop\MISC\IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.okuyucuekle.resources
+C:\Users\Pc_2\Desktop\MISC\IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.Properties.Resources.resources
+C:\Users\Pc_2\Desktop\MISC\IN PIROKRIES\obj\x86\Release\Kütüphane Takip Programı.csproj.GenerateResource.Cache
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x86\Release\Kütüphane_Takip_Programı.Not.resources
+F:\ \FINAL SOURCE\obj\x86\Release\Kütüphane Takip Programı.exe
+F:\ \FINAL SOURCE\obj\x86\Release\Kütüphane Takip Programı.pdb
+F:\ \FINAL SOURCE\bin\Release\Kütüphane Takip Programı.exe
+F:\ \FINAL SOURCE\bin\Release\Kütüphane Takip Programı.pdb
+F:\ \FINAL SOURCE\obj\x86\Release\Kütüphane Takip Programı.csprojResolveAssemblyReference.cache
+F:\ \FINAL SOURCE\obj\x86\Release\Kütüphane_Takip_Programı.Not.resources
+F:\ \FINAL SOURCE\obj\x86\Release\Kütüphane_Takip_Programı.Yardım.resources
+F:\ \FINAL SOURCE\obj\x86\Release\Kütüphane_Takip_Programı.ana.resources
+F:\ \FINAL SOURCE\obj\x86\Release\Kütüphane_Takip_Programı.Form1.resources
+F:\ \FINAL SOURCE\obj\x86\Release\Kütüphane_Takip_Programı.Kitapekle.resources
+F:\ \FINAL SOURCE\obj\x86\Release\Kütüphane_Takip_Programı.kitapteslimal.resources
+F:\ \FINAL SOURCE\obj\x86\Release\Kütüphane_Takip_Programı.kitapver.resources
+F:\ \FINAL SOURCE\obj\x86\Release\Kütüphane_Takip_Programı.okuyucuekle.resources
+F:\ \FINAL SOURCE\obj\x86\Release\Kütüphane_Takip_Programı.Properties.Resources.resources
+F:\ \FINAL SOURCE\obj\x86\Release\Kütüphane Takip Programı.csproj.GenerateResource.Cache
+C:\Users\Pc_2\Desktop\MISC\FINAL SOURCE\obj\x86\Release\Kütüphane Takip Programı.exe
+C:\Users\Pc_2\Desktop\MISC\FINAL SOURCE\obj\x86\Release\Kütüphane Takip Programı.pdb
+C:\Users\Pc_2\Desktop\MISC\FINAL SOURCE\bin\Release\Kütüphane Takip Programı.exe
+C:\Users\Pc_2\Desktop\MISC\FINAL SOURCE\bin\Release\Kütüphane Takip Programı.pdb
+C:\Users\Pc_2\Desktop\MISC\FINAL SOURCE\obj\x86\Release\Kütüphane_Takip_Programı.Not.resources
+C:\Users\Pc_2\Desktop\MISC\FINAL SOURCE\obj\x86\Release\Kütüphane_Takip_Programı.Yardım.resources
+C:\Users\Pc_2\Desktop\MISC\FINAL SOURCE\obj\x86\Release\Kütüphane_Takip_Programı.ana.resources
+C:\Users\Pc_2\Desktop\MISC\FINAL SOURCE\obj\x86\Release\Kütüphane_Takip_Programı.Form1.resources
+C:\Users\Pc_2\Desktop\MISC\FINAL SOURCE\obj\x86\Release\Kütüphane_Takip_Programı.Kitapekle.resources
+C:\Users\Pc_2\Desktop\MISC\FINAL SOURCE\obj\x86\Release\Kütüphane_Takip_Programı.kitapteslimal.resources
+C:\Users\Pc_2\Desktop\MISC\FINAL SOURCE\obj\x86\Release\Kütüphane_Takip_Programı.kitapver.resources
+C:\Users\Pc_2\Desktop\MISC\FINAL SOURCE\obj\x86\Release\Kütüphane_Takip_Programı.okuyucuekle.resources
+C:\Users\Pc_2\Desktop\MISC\FINAL SOURCE\obj\x86\Release\Kütüphane_Takip_Programı.Properties.Resources.resources
+C:\Users\Pc_2\Desktop\MISC\FINAL SOURCE\obj\x86\Release\Kütüphane Takip Programı.csproj.GenerateResource.Cache
+C:\Users\Pc_2\Desktop\MISC\FINAL SOURCE\obj\x86\Release\Kütüphane Takip Programı.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\FINAL SOURCE\bin\Release\Kütüphane Takip Programı.exe
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\FINAL SOURCE\bin\Release\Kütüphane Takip Programı.pdb
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\FINAL SOURCE\obj\x86\Release\Kütüphane Takip Programı.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\FINAL SOURCE\obj\x86\Release\Kütüphane_Takip_Programı.Not.resources
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\FINAL SOURCE\obj\x86\Release\Kütüphane_Takip_Programı.Yardım.resources
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\FINAL SOURCE\obj\x86\Release\Kütüphane_Takip_Programı.ana.resources
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\FINAL SOURCE\obj\x86\Release\Kütüphane_Takip_Programı.Form1.resources
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\FINAL SOURCE\obj\x86\Release\Kütüphane_Takip_Programı.Kitapekle.resources
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\FINAL SOURCE\obj\x86\Release\Kütüphane_Takip_Programı.kitapteslimal.resources
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\FINAL SOURCE\obj\x86\Release\Kütüphane_Takip_Programı.kitapver.resources
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\FINAL SOURCE\obj\x86\Release\Kütüphane_Takip_Programı.okuyucuekle.resources
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\FINAL SOURCE\obj\x86\Release\Kütüphane_Takip_Programı.Properties.Resources.resources
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\FINAL SOURCE\obj\x86\Release\Kütüphane Takip Programı.csproj.GenerateResource.Cache
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\FINAL SOURCE\obj\x86\Release\Kütüphane Takip Programı.exe
+C:\Users\Asus\Documents\Visual Studio 2015\Projects\FINAL SOURCE\obj\x86\Release\Kütüphane Takip Programı.pdb

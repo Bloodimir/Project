@@ -1,0 +1,5 @@
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Palindrome Checker\Palindrome Checker\bin\Debug\Palindrome Checker.exe.config
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Palindrome Checker\Palindrome Checker\bin\Debug\Palindrome Checker.exe
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Palindrome Checker\Palindrome Checker\bin\Debug\Palindrome Checker.pdb
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Palindrome Checker\Palindrome Checker\obj\Debug\Palindrome Checker.exe
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Palindrome Checker\Palindrome Checker\obj\Debug\Palindrome Checker.pdb

@@ -1,0 +1,14 @@
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\bin\Release\1Nisan.exe.config
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\obj\Release\Interop.WMPLib.dll
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\obj\Release\AxInterop.WMPLib.dll
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\obj\Release\1Nisan.csproj.ResolveComReference.cache
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\bin\Release\1Nisan.exe
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\bin\Release\1Nisan.pdb
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\bin\Release\Interop.WMPLib.dll
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\bin\Release\AxInterop.WMPLib.dll
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\obj\Release\_1Nisan.Form1.resources
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\obj\Release\_1Nisan.Properties.Resources.resources
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\obj\Release\1Nisan.csproj.GenerateResource.Cache
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\obj\Release\1Nisan.exe
+c:\users\asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\obj\Release\1Nisan.pdb
+C:\Users\Asus\documents\visual studio 2015\Projects\1Nisan\1Nisan\obj\Release\1Nisan.csprojResolveAssemblyReference.cache

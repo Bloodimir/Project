@@ -1,0 +1,610 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{14CA405B-8BAC-48AB-9FBA-8FB5DF88FD0D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>xServer</RootNamespace>
+    <AssemblyName>KuuhakuRAT</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>xServer.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationIcon>Kuuhaku_Server.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\Bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>..\Bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>none</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Cecil, Version=0.9.5.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Nat">
+      <HintPath>lib\Mono.Nat.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Vestris.ResourceLib, Version=1.4.724.0, Culture=neutral, PublicKeyToken=ec632d8ba5e5750d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Vestris.ResourceLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Formlar\FrmTermsOfUse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmTermsOfUse.designer.cs">
+      <DependentUpon>FrmTermsOfUse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kontroller\DotNetBarTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Kontroller\HexEditor\ByteCollection.cs" />
+    <Compile Include="Kontroller\HexEditor\Caret.cs" />
+    <Compile Include="Kontroller\HexEditor\EditView.cs" />
+    <Compile Include="Kontroller\HexEditor\HexEditor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Kontroller\HexEditor\HexViewHandler.cs" />
+    <Compile Include="Kontroller\HexEditor\IKeyMouseEventHandler.cs" />
+    <Compile Include="Kontroller\HexEditor\StringViewHandler.cs" />
+    <Compile Include="Kontroller\Line.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\AnaHook.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\EventArgsExtFare.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\EventArgsExtKlavye.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\EventArgsTuşBasışı.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\FareEylemleri.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\KlavyeEylemleri.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\KlavyeFareEylemleri.cs" />
+    <Compile Include="Kontroller\RapidPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Kontroller\RegistryTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Kontroller\RegistryValueLstItem.cs" />
+    <Compile Include="Kontroller\InputBox.cs" />
+    <Compile Include="Formlar\FrmHakkında.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmHakkında.Designer.cs">
+      <DependentUpon>FrmHakkında.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmBaşlangıcaEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmBaşlangıcaEkle.Designer.cs">
+      <DependentUpon>FrmBaşlangıcaEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmKurucu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmKurucu.Designer.cs">
+      <DependentUpon>FrmKurucu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmİndirÇalıştır.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmİndirÇalıştır.Designer.cs">
+      <DependentUpon>FrmİndirÇalıştır.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmDosyaYöneticisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmDosyaYöneticisi.Designer.cs">
+      <DependentUpon>FrmDosyaYöneticisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmKeylogger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmKeylogger.Designer.cs">
+      <DependentUpon>FrmKeylogger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\AnaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\AnaForm.Designer.cs">
+      <DependentUpon>AnaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kontroller\ListViewEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmŞifreKurtarımı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmŞifreKurtarımı.Designer.cs">
+      <DependentUpon>FrmŞifreKurtarımı.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmKayıtDefteriEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmKayıtDefteriEditor.Designer.cs">
+      <DependentUpon>FrmKayıtDefteriEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmBinaryEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmBinaryEdit.Designer.cs">
+      <DependentUpon>FrmBinaryEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmÇokluStringEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmÇokluStringEdit.Designer.cs">
+      <DependentUpon>FrmÇokluStringEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmStringEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmStringEdit.Designer.cs">
+      <DependentUpon>FrmStringEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmWordEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmWordEdit.Designer.cs">
+      <DependentUpon>FrmWordEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmUzakMasaüstü.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmUzakMasaüstü.Designer.cs">
+      <DependentUpon>FrmUzakMasaüstü.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmUzakKabuk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmUzakKabuk.Designer.cs">
+      <DependentUpon>FrmUzakKabuk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmTersProxy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmTersProxy.Designer.cs">
+      <DependentUpon>FrmTersProxy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmAyarlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmAyarlar.Designer.cs">
+      <DependentUpon>FrmAyarlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmMesajKutusuGönder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmMesajKutusuGönder.Designer.cs">
+      <DependentUpon>FrmMesajKutusuGönder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmBaşlangıçYöneticisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmBaşlangıçYöneticisi.Designer.cs">
+      <DependentUpon>FrmBaşlangıçYöneticisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmSistemBilgisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmSistemBilgisi.Designer.cs">
+      <DependentUpon>FrmSistemBilgisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmGörevYöneticisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmGörevYöneticisi.Designer.cs">
+      <DependentUpon>FrmGörevYöneticisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmYükleÇalıştır.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmYükleÇalıştır.Designer.cs">
+      <DependentUpon>FrmYükleÇalıştır.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmWebsitesiZiyaret.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmWebsitesiZiyaret.Designer.cs">
+      <DependentUpon>FrmWebsitesiZiyaret.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmGüncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmGüncelle.Designer.cs">
+      <DependentUpon>FrmGüncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KuuhakuCekirdek\ReverseProxy\Packets\ReverseProxyData.cs" />
+    <Compile Include="KuuhakuCekirdek\ReverseProxy\Packets\ReverseProxyDisconnect.cs" />
+    <Compile Include="KuuhakuCekirdek\ReverseProxy\Packets\ReverseProxyConnect.cs" />
+    <Compile Include="KuuhakuCekirdek\ReverseProxy\Packets\ReverseProxyConnectResponse.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="KuuhakuCekirdek\Kurucu\ClientBuilder.cs" />
+    <Compile Include="KuuhakuCekirdek\Kurucu\IconInjector.cs" />
+    <Compile Include="KuuhakuCekirdek\Kurucu\Renamer.cs" />
+    <Compile Include="KuuhakuCekirdek\Eylemler\Eylemİşleyicisi.cs" />
+    <Compile Include="KuuhakuCekirdek\Eylemler\Bağlantıİşleyicisi.cs" />
+    <Compile Include="KuuhakuCekirdek\Eylemler\Karışıkİşleyiciler.cs" />
+    <Compile Include="KuuhakuCekirdek\Eylemler\KayıtDefteriİşleyici.cs" />
+    <Compile Include="KuuhakuCekirdek\Eylemler\Gözetimİşleyici.cs" />
+    <Compile Include="KuuhakuCekirdek\Eylemler\Sistemİşleyicisi.cs" />
+    <Compile Include="KuuhakuCekirdek\Sıkıştırma\JpgCompression.cs" />
+    <Compile Include="KuuhakuCekirdek\Sıkıştırma\SafeQuickLZ.cs" />
+    <Compile Include="KuuhakuCekirdek\Kriptografi\AES.cs" />
+    <Compile Include="KuuhakuCekirdek\Veri\Başlangıçİtemleri.cs" />
+    <Compile Include="KuuhakuCekirdek\Veri\KurulumProfili.cs" />
+    <Compile Include="KuuhakuCekirdek\Veri\KurulumAyarları.cs" />
+    <Compile Include="KuuhakuCekirdek\Veri\İndirÇalıştır.cs" />
+    <Compile Include="KuuhakuCekirdek\Veri\Sunucu.cs" />
+    <Compile Include="KuuhakuCekirdek\Veri\MesajKutusu.cs" />
+    <Compile Include="KuuhakuCekirdek\Veri\KurtarılanHesaplar.cs" />
+    <Compile Include="KuuhakuCekirdek\Veri\RemoteDrive.cs" />
+    <Compile Include="KuuhakuCekirdek\Veri\Ayarlar.cs" />
+    <Compile Include="KuuhakuCekirdek\Veri\Güncelleme.cs" />
+    <Compile Include="KuuhakuCekirdek\Veri\YükleÇalıştır.cs" />
+    <Compile Include="KuuhakuCekirdek\Veri\WebsiteZiyareti.cs" />
+    <Compile Include="KuuhakuCekirdek\Eklentiler\ListeGörünümüEklentisi.cs" />
+    <Compile Include="KuuhakuCekirdek\Eklentiler\KayıtDefteriTuşlarıEklentisi.cs" />
+    <Compile Include="KuuhakuCekirdek\Eklentiler\SoketEklentisi.cs" />
+    <Compile Include="KuuhakuCekirdek\Yardımcılar\PanoYardımcısı.cs" />
+    <Compile Include="KuuhakuCekirdek\Yardımcılar\DosyaYardımcısı.cs" />
+    <Compile Include="KuuhakuCekirdek\Yardımcılar\FormatYardımcısı.cs" />
+    <Compile Include="KuuhakuCekirdek\Yardımcılar\HostYardımcısı.cs" />
+    <Compile Include="KuuhakuCekirdek\Yardımcılar\NativeMethodsHelper.cs" />
+    <Compile Include="KuuhakuCekirdek\Yardımcılar\PlatformYardımcısı.cs" />
+    <Compile Include="KuuhakuCekirdek\Yardımcılar\UzakMasaüstüYardımcısı.cs" />
+    <Compile Include="KuuhakuCekirdek\Yardımcılar\PencereYardımcısı.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\HotKeys\HotKeyArgs.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\HotKeys\HotKeySeti.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\HotKeys\HotKeySetCollection.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\Uygulama\AppEventFacade.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\Uygulama\AppKeyListener.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\Uygulama\AppMouseListener.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\Uygulama\BaseListener.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\Uygulama\TuşSeti.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\Uygulama\Callback.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\Uygulama\EventFacade.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\Uygulama\GlobalEventFacade.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\Uygulama\GlobalKeyListener.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\Uygulama\GlobalMouseListener.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\Uygulama\KeyboardState.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\Uygulama\KeyListener.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\Uygulama\MouseListener.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\Uygulama\Subscribe.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\WinApi\AppMouseStruct.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\WinApi\CallbackData.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\WinApi\HookHelper.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\WinApi\HookIds.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\WinApi\HookNativeMethods.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\WinApi\HookProcedure.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\WinApi\HookProcedureHandle.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\WinApi\HookResult.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\WinApi\KeyboardHookStruct.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\WinApi\KeyboardNativeMethods.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\WinApi\Messages.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\WinApi\MouseNativeMethods.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\WinApi\MouseStruct.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\WinApi\Point.cs" />
+    <Compile Include="KuuhakuCekirdek\MouseKeyHook\WinApi\ThreadNativeMethods.cs" />
+    <Compile Include="KuuhakuCekirdek\NetSerializer\CodeGenContext.cs" />
+    <Compile Include="KuuhakuCekirdek\NetSerializer\Helpers.cs" />
+    <Compile Include="KuuhakuCekirdek\NetSerializer\ITypeSerializer.cs" />
+    <Compile Include="KuuhakuCekirdek\NetSerializer\Primitives.cs" />
+    <Compile Include="KuuhakuCekirdek\NetSerializer\Serializer.cs" />
+    <Compile Include="KuuhakuCekirdek\NetSerializer\TypeSerializers\ArraySerializer.cs" />
+    <Compile Include="KuuhakuCekirdek\NetSerializer\TypeSerializers\DictionarySerializer.cs" />
+    <Compile Include="KuuhakuCekirdek\NetSerializer\TypeSerializers\EnumSerializer.cs" />
+    <Compile Include="KuuhakuCekirdek\NetSerializer\TypeSerializers\GenericSerializer.cs" />
+    <Compile Include="KuuhakuCekirdek\NetSerializer\TypeSerializers\ObjectSerializer.cs" />
+    <Compile Include="KuuhakuCekirdek\NetSerializer\TypeSerializers\PrimitivesSerializer.cs" />
+    <Compile Include="KuuhakuCekirdek\Ağ\Client.cs" />
+    <Compile Include="KuuhakuCekirdek\Ağ\KuuhakuServer.cs" />
+    <Compile Include="KuuhakuCekirdek\Ağ\Server.cs" />
+    <Compile Include="KuuhakuCekirdek\Ağ\KurbanDurumu.cs" />
+    <Compile Include="KuuhakuCekirdek\Ağ\UtilitylerAğ\PooledBufferManager.cs" />
+    <Compile Include="KuuhakuCekirdek\Ağ\UtilitylerAğ\UPnP.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ClientPaketleri\DoDownloadFileResponse.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ClientPaketleri\DoShellExecuteResponse.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ClientPaketleri\GetAuthenticationResponse.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ClientPaketleri\GetChangeRegistryValueResponse.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ClientPaketleri\GetCreateRegistryKeyResponse.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ClientPaketleri\GetCreateRegistryValueResponse.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ClientPaketleri\GetDeleteRegistryKeyResponse.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ClientPaketleri\GetDeleteRegistryValueResponse.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ClientPaketleri\GetDesktopResponse.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ClientPaketleri\GetDirectoryResponse.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ClientPaketleri\GetDrivesResponse.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ClientPaketleri\GetKeyloggerLogsResponse.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ClientPaketleri\GetMonitorsResponse.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ClientPaketleri\GetPasswordsResponse.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ClientPaketleri\GetProcessesResponse.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ClientPaketleri\GetRegistryKeysResponse.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ClientPaketleri\GetRenameRegistryKeyResponse.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ClientPaketleri\GetRenameRegistryValueResponse.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ClientPaketleri\GetStartupItemsResponse.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ClientPaketleri\GetSystemInfoResponse.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ClientPaketleri\SetStatus.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ClientPaketleri\SetStatusFileManager.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ClientPaketleri\SetUserStatus.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\IPacket.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\Packetİşleyicisi.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoChangeRegistryValue.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoClientDisconnect.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoClientReconnect.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoClientUninstall.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoClientUpdate.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoCreateRegistryKey.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoCreateRegistryValue.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoDeleteRegistryKey.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoDeleteRegistryValue.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoDownloadAndExecute.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoDownloadFile.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoDownloadFileCancel.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoKeyboardEvent.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoLoadRegistryKey.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoMouseEvent.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoPathDelete.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoPathRename.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoProcessKill.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoProcessStart.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoRenameRegistryKey.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoRenameRegistryValue.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoShellExecute.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoShowMessageBox.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoShutdownAction.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoStartupItemAdd.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoStartupItemRemove.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoUploadAndExecute.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoUploadFile.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\DoVisitWebsite.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\GetAuthentication.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\GetDesktop.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\GetDirectory.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\GetDrives.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\GetKeyloggerLogs.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\GetMonitors.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\GetPasswords.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\GetProcesses.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\GetStartupItems.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\GetSystemInfo.cs" />
+    <Compile Include="KuuhakuCekirdek\Paketler\ServerPaketleri\SetAuthenticationSuccess.cs" />
+    <Compile Include="KuuhakuCekirdek\KayıtDefteri\RegSeekerMatch.cs" />
+    <Compile Include="KuuhakuCekirdek\KayıtDefteri\RegValueData.cs" />
+    <Compile Include="KuuhakuCekirdek\ReverseProxy\ReverseProxyClient.cs" />
+    <Compile Include="KuuhakuCekirdek\ReverseProxy\ReverseProxyCommandHandler.cs" />
+    <Compile Include="KuuhakuCekirdek\ReverseProxy\ReverseProxyServer.cs" />
+    <Compile Include="KuuhakuCekirdek\UTIlityler\FileSplit.cs" />
+    <Compile Include="KuuhakuCekirdek\UTIlityler\FrameCounter.cs" />
+    <Compile Include="KuuhakuCekirdek\UTIlityler\ListViewColumnSorter.cs" />
+    <Compile Include="KuuhakuCekirdek\UTIlityler\NativeMethods.cs" />
+    <Compile Include="KuuhakuCekirdek\UTIlityler\NoIpUpdater.cs" />
+    <Compile Include="KuuhakuCekirdek\UTIlityler\UnsafeStreamCodec.cs" />
+    <Compile Include="Enumlar2\FareEylemleri.cs" />
+    <Compile Include="Enumlar2\DizinTürleri.cs" />
+    <Compile Include="Enumlar2\KapatmaEylemleri.cs" />
+    <Compile Include="Enumlar2\KullanıcıDurumu.cs" />
+    <EmbeddedResource Include="Formlar\FrmHakkında.resx">
+      <DependentUpon>FrmHakkında.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmBaşlangıcaEkle.resx">
+      <DependentUpon>FrmBaşlangıcaEkle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmKurucu.resx">
+      <DependentUpon>FrmKurucu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmTermsOfUse.resx">
+      <DependentUpon>FrmTermsOfUse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmİndirÇalıştır.resx">
+      <DependentUpon>FrmİndirÇalıştır.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmDosyaYöneticisi.resx">
+      <DependentUpon>FrmDosyaYöneticisi.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmKeylogger.resx">
+      <DependentUpon>FrmKeylogger.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\AnaForm.resx">
+      <DependentUpon>AnaForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmŞifreKurtarımı.resx">
+      <DependentUpon>FrmŞifreKurtarımı.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmKayıtDefteriEditor.resx">
+      <DependentUpon>FrmKayıtDefteriEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmBinaryEdit.resx">
+      <DependentUpon>FrmBinaryEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmÇokluStringEdit.resx">
+      <DependentUpon>FrmÇokluStringEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmStringEdit.resx">
+      <DependentUpon>FrmStringEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmWordEdit.resx">
+      <DependentUpon>FrmWordEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmUzakMasaüstü.resx">
+      <DependentUpon>FrmUzakMasaüstü.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmUzakKabuk.resx">
+      <DependentUpon>FrmUzakKabuk.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmTersProxy.resx">
+      <DependentUpon>FrmTersProxy.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmAyarlar.resx">
+      <DependentUpon>FrmAyarlar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmMesajKutusuGönder.resx">
+      <DependentUpon>FrmMesajKutusuGönder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmBaşlangıçYöneticisi.resx">
+      <DependentUpon>FrmBaşlangıçYöneticisi.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmSistemBilgisi.resx">
+      <DependentUpon>FrmSistemBilgisi.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmGörevYöneticisi.resx">
+      <DependentUpon>FrmGörevYöneticisi.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmYükleÇalıştır.resx">
+      <DependentUpon>FrmYükleÇalıştır.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmWebsitesiZiyaret.resx">
+      <DependentUpon>FrmWebsitesiZiyaret.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmGüncelle.resx">
+      <DependentUpon>FrmGüncelle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Kuuhaku_Server.ico" />
+    <Content Include="KuuhakuCekirdek\MouseKeyHook\HotKeys\ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

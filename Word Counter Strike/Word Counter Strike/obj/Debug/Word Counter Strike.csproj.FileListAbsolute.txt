@@ -1,0 +1,5 @@
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Word Counter Strike\Word Counter Strike\bin\Debug\Word Counter Strike.exe.config
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Word Counter Strike\Word Counter Strike\bin\Debug\Word Counter Strike.exe
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Word Counter Strike\Word Counter Strike\bin\Debug\Word Counter Strike.pdb
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Word Counter Strike\Word Counter Strike\obj\Debug\Word Counter Strike.exe
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Word Counter Strike\Word Counter Strike\obj\Debug\Word Counter Strike.pdb

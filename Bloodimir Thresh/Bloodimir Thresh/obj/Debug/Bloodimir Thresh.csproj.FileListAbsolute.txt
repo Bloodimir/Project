@@ -1,0 +1,12 @@
+c:\users\asus\documents\visual studio 2013\Projects\Bloodimir Thresh\Bloodimir Thresh\bin\Debug\Bloodimir Thresh.exe.config
+c:\users\asus\documents\visual studio 2013\Projects\Bloodimir Thresh\Bloodimir Thresh\obj\Debug\Bloodimir Thresh.csprojResolveAssemblyReference.cache
+c:\users\asus\documents\visual studio 2013\Projects\Bloodimir Thresh\Bloodimir Thresh\bin\Debug\Bloodimir Thresh.exe
+c:\users\asus\documents\visual studio 2013\Projects\Bloodimir Thresh\Bloodimir Thresh\bin\Debug\Bloodimir Thresh.pdb
+c:\users\asus\documents\visual studio 2013\Projects\Bloodimir Thresh\Bloodimir Thresh\bin\Debug\EloBuddy.dll
+c:\users\asus\documents\visual studio 2013\Projects\Bloodimir Thresh\Bloodimir Thresh\bin\Debug\EloBuddy.SDK.dll
+c:\users\asus\documents\visual studio 2013\Projects\Bloodimir Thresh\Bloodimir Thresh\bin\Debug\SharpDX.Direct3D9.dll
+c:\users\asus\documents\visual studio 2013\Projects\Bloodimir Thresh\Bloodimir Thresh\bin\Debug\SharpDX.dll
+c:\users\asus\documents\visual studio 2013\Projects\Bloodimir Thresh\Bloodimir Thresh\bin\Debug\Newtonsoft.Json.dll
+c:\users\asus\documents\visual studio 2013\Projects\Bloodimir Thresh\Bloodimir Thresh\bin\Debug\EloBuddy.Sandbox.dll
+c:\users\asus\documents\visual studio 2013\Projects\Bloodimir Thresh\Bloodimir Thresh\obj\Debug\Bloodimir Thresh.exe
+c:\users\asus\documents\visual studio 2013\Projects\Bloodimir Thresh\Bloodimir Thresh\obj\Debug\Bloodimir Thresh.pdb

@@ -1,0 +1,14 @@
+C:\Users\Asus\Desktop\QuasarRAT-master\Client.Tests\Bin\Debug\Client.Tests.dll
+C:\Users\Asus\Desktop\QuasarRAT-master\Client.Tests\Bin\Debug\Client.Tests.pdb
+C:\Users\Asus\Desktop\QuasarRAT-master\Client.Tests\Bin\Debug\Client.exe
+C:\Users\Asus\Desktop\QuasarRAT-master\Client.Tests\Bin\Debug\Client.pdb
+C:\Users\Asus\Desktop\QuasarRAT-master\Client.Tests\obj\x86\Debug\Client.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Desktop\QuasarRAT-master\Client.Tests\obj\x86\Debug\Client.Tests.dll
+C:\Users\Asus\Desktop\QuasarRAT-master\Client.Tests\obj\x86\Debug\Client.Tests.pdb
+C:\Users\Asus\Desktop\KuuhakuRAT\Client.Tests\obj\x86\Debug\Client.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Desktop\KuuhakuRAT\Client.Tests\obj\x86\Debug\Client.Tests.dll
+C:\Users\Asus\Desktop\KuuhakuRAT\Client.Tests\obj\x86\Debug\Client.Tests.pdb
+C:\Users\Asus\Desktop\KuuhakuRAT\Client.Tests\Bin\Debug\Client.Tests.dll
+C:\Users\Asus\Desktop\KuuhakuRAT\Client.Tests\Bin\Debug\Client.Tests.pdb
+C:\Users\Asus\Desktop\KuuhakuRAT\Client.Tests\Bin\Debug\Client.exe
+C:\Users\Asus\Desktop\KuuhakuRAT\Client.Tests\Bin\Debug\Client.pdb

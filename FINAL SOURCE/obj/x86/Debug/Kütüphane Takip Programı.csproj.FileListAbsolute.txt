@@ -1,0 +1,94 @@
+C:\Users\user\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\bin\Debug\Kütüphane Takip Programı.exe
+C:\Users\user\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\bin\Debug\Kütüphane Takip Programı.pdb
+C:\Users\user\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\user\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.Form1.resources
+C:\Users\user\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.Properties.Resources.resources
+C:\Users\user\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\user\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\user\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane Takip Programı.exe
+C:\Users\user\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane Takip Programı.pdb
+C:\Users\user\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.kitapekle.resources
+C:\Users\user\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.okuyucuekle.resources
+C:\Users\user\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.kitapver.resources
+C:\Users\user\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.kitapteslimal.resources
+C:\Users\user\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.ana.resources
+C:\Documents and Settings\admin\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane Takip Programı.exe
+C:\Documents and Settings\admin\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane Takip Programı.pdb
+C:\Documents and Settings\admin\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\bin\Debug\Kütüphane Takip Programı.exe
+C:\Documents and Settings\admin\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\bin\Debug\Kütüphane Takip Programı.pdb
+C:\Documents and Settings\admin\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\admin\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.ana.resources
+C:\Documents and Settings\admin\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.Form1.resources
+C:\Documents and Settings\admin\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.kitapekle.resources
+C:\Documents and Settings\admin\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.kitapteslimal.resources
+C:\Documents and Settings\admin\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.kitapver.resources
+C:\Documents and Settings\admin\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.okuyucuekle.resources
+C:\Documents and Settings\admin\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.Properties.Resources.resources
+C:\Documents and Settings\admin\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\admin\Desktop\Kütüphane Takip Programı\Kütüphane Takip Programı\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Asus\Desktop\New folder (3)\Kütüphane Takip Programı\bin\Debug\Kütüphane Takip Programı.exe
+C:\Users\Asus\Desktop\New folder (3)\Kütüphane Takip Programı\bin\Debug\Kütüphane Takip Programı.pdb
+C:\Users\Asus\Desktop\New folder (3)\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.ana.resources
+C:\Users\Asus\Desktop\New folder (3)\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.Form1.resources
+C:\Users\Asus\Desktop\New folder (3)\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.kitapekle.resources
+C:\Users\Asus\Desktop\New folder (3)\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.kitapteslimal.resources
+C:\Users\Asus\Desktop\New folder (3)\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.kitapver.resources
+C:\Users\Asus\Desktop\New folder (3)\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.okuyucuekle.resources
+C:\Users\Asus\Desktop\New folder (3)\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.Properties.Resources.resources
+C:\Users\Asus\Desktop\New folder (3)\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane Takip Programı.csproj.GenerateResource.Cache
+C:\Users\Asus\Desktop\New folder (3)\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane Takip Programı.exe
+C:\Users\Asus\Desktop\New folder (3)\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane Takip Programı.pdb
+C:\Users\Pc_2\Desktop\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane Takip Programı.exe
+C:\Users\Pc_2\Desktop\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane Takip Programı.pdb
+C:\Users\Pc_2\Desktop\Kütüphane Takip Programı\bin\Debug\Kütüphane Takip Programı.exe
+C:\Users\Pc_2\Desktop\Kütüphane Takip Programı\bin\Debug\Kütüphane Takip Programı.pdb
+C:\Users\Pc_2\Desktop\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane Takip Programı.csprojResolveAssemblyReference.cache
+C:\Users\Pc_2\Desktop\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.ana.resources
+C:\Users\Pc_2\Desktop\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.Form1.resources
+C:\Users\Pc_2\Desktop\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.kitapekle.resources
+C:\Users\Pc_2\Desktop\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.kitapteslimal.resources
+C:\Users\Pc_2\Desktop\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.kitapver.resources
+C:\Users\Pc_2\Desktop\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.okuyucuekle.resources
+C:\Users\Pc_2\Desktop\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane_Takip_Programı.Properties.Resources.resources
+C:\Users\Pc_2\Desktop\Kütüphane Takip Programı\obj\x86\Debug\Kütüphane Takip Programı.csproj.GenerateResource.Cache
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x86\Debug\Kütüphane Takip Programı.exe
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x86\Debug\Kütüphane Takip Programı.pdb
+C:\Users\Asus\Desktop\IN PIROKRIES\bin\Debug\Kütüphane Takip Programı.exe
+C:\Users\Asus\Desktop\IN PIROKRIES\bin\Debug\Kütüphane Takip Programı.pdb
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x86\Debug\Kütüphane Takip Programı.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x86\Debug\Kütüphane_Takip_Programı.ana.resources
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x86\Debug\Kütüphane_Takip_Programı.Form1.resources
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x86\Debug\Kütüphane_Takip_Programı.kitapekle.resources
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x86\Debug\Kütüphane_Takip_Programı.kitapteslimal.resources
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x86\Debug\Kütüphane_Takip_Programı.kitapver.resources
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x86\Debug\Kütüphane_Takip_Programı.okuyucuekle.resources
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x86\Debug\Kütüphane_Takip_Programı.Properties.Resources.resources
+C:\Users\Asus\Desktop\IN PIROKRIES\obj\x86\Debug\Kütüphane Takip Programı.csproj.GenerateResource.Cache
+G:\ \IN PIROKRIES\obj\x86\Debug\Kütüphane Takip Programı.exe
+G:\ \IN PIROKRIES\obj\x86\Debug\Kütüphane Takip Programı.pdb
+G:\ \IN PIROKRIES\bin\Debug\Kütüphane Takip Programı.exe
+G:\ \IN PIROKRIES\bin\Debug\Kütüphane Takip Programı.pdb
+G:\ \IN PIROKRIES\obj\x86\Debug\Kütüphane Takip Programı.csprojResolveAssemblyReference.cache
+G:\ \IN PIROKRIES\obj\x86\Debug\Kütüphane_Takip_Programı.yardım.resources
+G:\ \IN PIROKRIES\obj\x86\Debug\Kütüphane_Takip_Programı.ana.resources
+G:\ \IN PIROKRIES\obj\x86\Debug\Kütüphane_Takip_Programı.Form1.resources
+G:\ \IN PIROKRIES\obj\x86\Debug\Kütüphane_Takip_Programı.Kitapekle.resources
+G:\ \IN PIROKRIES\obj\x86\Debug\Kütüphane_Takip_Programı.kitapteslimal.resources
+G:\ \IN PIROKRIES\obj\x86\Debug\Kütüphane_Takip_Programı.kitapver.resources
+G:\ \IN PIROKRIES\obj\x86\Debug\Kütüphane_Takip_Programı.okuyucuekle.resources
+G:\ \IN PIROKRIES\obj\x86\Debug\Kütüphane_Takip_Programı.Properties.Resources.resources
+G:\ \IN PIROKRIES\obj\x86\Debug\Kütüphane Takip Programı.csproj.GenerateResource.Cache
+C:\Users\Pc_2\Desktop\IN PIROKRIES\obj\x86\Debug\Kütüphane Takip Programı.exe
+C:\Users\Pc_2\Desktop\IN PIROKRIES\obj\x86\Debug\Kütüphane Takip Programı.pdb
+C:\Users\Pc_2\Desktop\IN PIROKRIES\bin\Debug\Kütüphane Takip Programı.exe
+C:\Users\Pc_2\Desktop\IN PIROKRIES\bin\Debug\Kütüphane Takip Programı.pdb
+C:\Users\Pc_2\Desktop\IN PIROKRIES\obj\x86\Debug\Kütüphane Takip Programı.csprojResolveAssemblyReference.cache
+C:\Users\Pc_2\Desktop\IN PIROKRIES\obj\x86\Debug\Kütüphane_Takip_Programı.yardım.resources
+C:\Users\Pc_2\Desktop\IN PIROKRIES\obj\x86\Debug\Kütüphane_Takip_Programı.ana.resources
+C:\Users\Pc_2\Desktop\IN PIROKRIES\obj\x86\Debug\Kütüphane_Takip_Programı.Form1.resources
+C:\Users\Pc_2\Desktop\IN PIROKRIES\obj\x86\Debug\Kütüphane_Takip_Programı.Kitapekle.resources
+C:\Users\Pc_2\Desktop\IN PIROKRIES\obj\x86\Debug\Kütüphane_Takip_Programı.kitapteslimal.resources
+C:\Users\Pc_2\Desktop\IN PIROKRIES\obj\x86\Debug\Kütüphane_Takip_Programı.kitapver.resources
+C:\Users\Pc_2\Desktop\IN PIROKRIES\obj\x86\Debug\Kütüphane_Takip_Programı.okuyucuekle.resources
+C:\Users\Pc_2\Desktop\IN PIROKRIES\obj\x86\Debug\Kütüphane_Takip_Programı.Properties.Resources.resources
+C:\Users\Pc_2\Desktop\IN PIROKRIES\obj\x86\Debug\Kütüphane Takip Programı.csproj.GenerateResource.Cache

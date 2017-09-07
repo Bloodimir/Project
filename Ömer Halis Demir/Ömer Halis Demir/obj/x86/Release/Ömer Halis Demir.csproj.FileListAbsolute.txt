@@ -1,0 +1,10 @@
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Ömer Halis Demir\Ömer Halis Demir\bin\x86\Release\Ömer Halis Demir.exe.config
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Ömer Halis Demir\Ömer Halis Demir\bin\x86\Release\Ömer Halis Demir.exe
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Ömer Halis Demir\Ömer Halis Demir\bin\x86\Release\Ömer Halis Demir.pdb
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Ömer Halis Demir\Ömer Halis Demir\obj\x86\Release\Ömer Halis Demir.exe
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Ömer Halis Demir\Ömer Halis Demir\obj\x86\Release\Ömer Halis Demir.pdb
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Ömer Halis Demir\Ömer Halis Demir\obj\x86\Release\Interop.MediaPlayer.dll
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Ömer Halis Demir\Ömer Halis Demir\obj\x86\Release\Interop.WMPLauncher.dll
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Ömer Halis Demir\Ömer Halis Demir\obj\x86\Release\Interop.WMPLib.dll
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Ömer Halis Demir\Ömer Halis Demir\obj\x86\Release\Ömer Halis Demir.csproj.ResolveComReference.cache
+C:\Users\Asus\Desktop\Query\The Coders Lexicon\Ömer Halis Demir\Ömer Halis Demir\obj\x86\Release\Ömer Halis Demir.csprojResolveAssemblyReference.cache

@@ -1,0 +1,14 @@
+<settings>
+  <PortDinle>4782</PortDinle>
+  <OtomatikDinle>True</OtomatikDinle>
+  <PopupGöster>True</PopupGöster>
+  <Password>1234</Password>
+  <UPnPKullan>True</UPnPKullan>
+  <ToolTipGöster>True</ToolTipGöster>
+  <EnableNoIPUpdater>True</EnableNoIPUpdater>
+  <NoIPHost>kuuhakurat.zapto.org</NoIPHost>
+  <NoIPUsername>berkeokan35@hotmail.com</NoIPUsername>
+  <NoIPPassword>okanugur1</NoIPPassword>
+  <SaveFormat>APP - URL - ID:ŞİFRE</SaveFormat>
+  <ReverseProxyPort>3128</ReverseProxyPort>
+</settings>
